@@ -18,4 +18,5 @@
     <string name="yes">yes</string>
     <string name="textview4"></string>
     <string name="no">No</string>
+    <string name="textview10">TextView</string>
 </resources>
