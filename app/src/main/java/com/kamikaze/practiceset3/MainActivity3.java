@@ -14,6 +14,10 @@ public static final String thisisextra ="com.kamikaze.practiceset3.thisextraname
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
     }
+
+
+
+
     public void arpit(View view ){
         EditText editText =findViewById(R.id.nomo);
         Intent intent = new Intent(this,MainActivity5.class);
