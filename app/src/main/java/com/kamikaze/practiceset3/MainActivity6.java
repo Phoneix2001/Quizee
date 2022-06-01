@@ -41,12 +41,14 @@ public class MainActivity6 extends AppCompatActivity implements AdapterView.OnIt
 
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long id) {
+
 //        Toast.makeText(this, "helafdajdfisiadfysaifupi", Toast.LENGTH_SHORT).show();
 TextView textview= findViewById(R.id.textView13);
 String sd = adapterView.getItemAtPosition(i).toString();
 textview.setText(sd);
         Log.v("nomo","this is working");
         Button button=  findViewById(R.id.button10);
+
         button.setText("Know about "+sd);
         button.setOnClickListener(new View.OnClickListener(){
 
