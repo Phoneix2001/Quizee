@@ -109,6 +109,26 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Watch a video here</string>
+    <string name="action_settings2">Time to play some sound</string>
     <string name="button31">Click here for more information</string>
+    <string name="monstername">So , select your favourite Monster here </string>
+<!--    <string name="button345">Know more about your favorite Monster</string>-->
+    <string-array name="Monster_Names">
+        <item>Bogeyman </item>
+        <item>Vampire </item>
+        <item>Dybbuk </item>
+        <item>Banshee </item>
+        <item>Pontianak </item>
+        <item>Zombie </item>
+        <item>Hydra </item>
+        <item>Chimera </item>
+        <item>Yeti, Sasquatch, and Bigfoot</item>
+        <item>Dragon </item>
+        <item>Unicorn </item>
+        <item>Basilisk </item>
+        <item>Phoenix </item>
+        <item>Werewolf </item>
+
+    </string-array>
 </resources>

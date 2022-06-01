@@ -24,4 +24,8 @@ public static final String thisisextra ="com.kamikaze.practiceset3.thisextraname
         intent.putExtra(thisisextra,editText.getText().toString());
         startActivity(intent);
     }
+    public void thisisclicklistner(View view){
+        Intent intent =new Intent(this ,MainActivity6.class);
+        startActivity(intent);
+    }
 }
