@@ -1,6 +1,7 @@
 package com.kamikaze.practiceset3;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -33,7 +34,10 @@ public class allmonsternameinrecyclerview extends AppCompatActivity {
         customadator customadator = new customadator(monstername);
         recyclerView.setHasFixedSize(true);
        recyclerView.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.VERTICAL));
+       recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setLayoutManager(new LinearLayoutManager(this) );
         recyclerView.setAdapter(customadator);
     }
+
+
 }
