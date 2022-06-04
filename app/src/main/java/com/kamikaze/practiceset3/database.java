@@ -1,25 +1,37 @@
 package com.kamikaze.practiceset3;
 
 public class database {
+private int image;
+private String name;
+private String age;
 
-    private int sno ;
-    public int image;
-    public String name;
-    database (int sno, int image , String name){
-        this.sno=sno;
-        this.image=image;
-        this.name=name;
-    }
-
-    public int getSno() {
-        return sno;
+    public database(int image, String name, String age) {
+        this.image = image;
+        this.name = name;
+        this.age = age;
     }
 
     public int getImage() {
         return image;
     }
 
+    public void setImage(int image) {
+        this.image = image;
+    }
+
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
     }
 }

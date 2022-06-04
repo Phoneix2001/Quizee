@@ -86,6 +86,9 @@ textview.setText(sd);
                 Intent inten = new Intent(this,MainActivity8.class);
                 startActivity(inten);
                 return true;
+            case R.id.action_settings3:
+                Intent inte = new Intent(this ,allmonsternameinrecyclerview.class);
+                startActivity(inte);
             default:
                 return super.onOptionsItemSelected(item);
         }

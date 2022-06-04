@@ -113,7 +113,9 @@
     <string name="action_settings2">Time to play some sound</string>
     <string name="button31">Click here for more information</string>
     <string name="monstername">So , select your favourite Monster here </string>
-<!--    <string name="button345">Know more about your favorite Monster</string>-->
+    <string name="todo">TODO</string>
+    <string name="afsdfshfsdhf">afsdfshfsdhf</string>
+    <!--    <string name="button345">Know more about your favorite Monster</string>-->
     <string-array name="Monster_Names">
         <item>Bogeyman </item>
         <item>Vampire </item>
