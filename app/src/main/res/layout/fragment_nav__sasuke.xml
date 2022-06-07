@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nav_Sasuke">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/sasuke1" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview20"
+        android:layout_marginTop="50dp"
+        android:textSize="34sp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="#673AB7"
+        android:layout_gravity="center_horizontal"/>
+</FrameLayout>

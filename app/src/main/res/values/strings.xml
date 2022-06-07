@@ -133,4 +133,13 @@
         <item>Werewolf </item>
 
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_favorite">My favorite</string>
+    <string name="all_monster_names">All Monster Names</string>
+    <string name="feeling_like_a_monster">Feeling Like A monster</string>
+    <string name="textview20">Time to take Revenge</string>
+    <string name="textview21">I am gonna be a Hokage one day</string>
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
 </resources>

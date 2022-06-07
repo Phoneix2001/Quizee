@@ -10,11 +10,11 @@
     <item
         android:id="@+id/action_settings2"
         android:orderInCategory="100"
-        android:title="@string/action_settings2"
+        android:title="@string/my_favorite"
         app:showAsAction="never" />
     <item
         android:id="@+id/action_settings3"
         android:orderInCategory="100"
-        android:title="All Monster Names"
+        android:title="@string/all_monster_names"
         app:showAsAction="never"/>
 </menu>
