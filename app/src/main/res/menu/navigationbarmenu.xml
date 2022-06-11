@@ -4,12 +4,15 @@
     android:checkableBehavior="single">
     <item android:id="@+id/Naruto"
         android:title="Naruto"
+        android:icon="@drawable/naruto"
         />
     <item android:id="@+id/Sasuke"
         android:title="Sasuke"
+        android:icon="@drawable/sasuke1"
         />
     <item android:id="@+id/Sakura"
         android:title="Sakura"
+        android:icon="@drawable/sakura"
         />
 
 </group>
