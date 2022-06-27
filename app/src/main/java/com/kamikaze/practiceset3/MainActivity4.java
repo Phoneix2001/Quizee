@@ -9,6 +9,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class MainActivity4 extends AppCompatActivity {
     private final String[]  questions={" Can we reduce the visibility of the overridden method ?","Does Java provides default copy constructor ?","Can constructors be synchronized in Java ?","can we create a null as a key for a map collection ?","Can we override static methods ?","Can we reduce the visibility of the inherited or overridden method ?"," Can we have multiple servlets in a web application and How can we do that ?","Can we overload constructors ?","Will static block for Test Class execute in the following code ? \n" +
             "\n" +
@@ -100,6 +103,7 @@ button.setOnClickListener(new View.OnClickListener() {
          if (index <=questions.length-1){
              if (!answer[index]){
                  score++;
+
              }
              index++;
              if(index<=questions.length-1){
@@ -108,11 +112,18 @@ button.setOnClickListener(new View.OnClickListener() {
              }
              else{
                  Toast.makeText(MainActivity4.this, "your score is "+score+"/"+questions.length, Toast.LENGTH_SHORT).show();
+                 sendscore();
              }
          }else {
              Toast.makeText(MainActivity4.this, "Restart your app", Toast.LENGTH_SHORT).show();
          }
      }
  });
+    }
+
+    public void  sendscore(){
+FirebaseDatabase database =FirebaseDatabase.getInstance();
+        DatabaseReference myref = database.getReference( "quizescore");
+        myref.setValue(score);
     }
 }

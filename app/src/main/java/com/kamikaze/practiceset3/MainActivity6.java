@@ -89,6 +89,9 @@ textview.setText(sd);
             case R.id.action_settings3:
                 Intent inte = new Intent(this ,allmonsternameinrecyclerview.class);
                 startActivity(inte);
+            case R.id.LiveData:
+                Intent ints = new Intent (this ,livedatacounter.class);
+                startActivity(ints);
             default:
                 return super.onOptionsItemSelected(item);
         }
